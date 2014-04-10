@@ -1,0 +1,42 @@
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+.layer {
+    background-color: #444;
+}
+
+.splashBackgroundGradient {
+    background: #d61b15; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #d61b15 19%, #db2727 40%, #d62424 53%, #d61d1d 95%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(19%,#d61b15), color-stop(40%,#db2727), color-stop(53%,#d62424), color-stop(95%,#d61d1d)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #d61b15 19%,#db2727 40%,#d62424 53%,#d61d1d 95%);  /*Chrome10+,Safari5.1+  */
+    background: -o-radial-gradient(center, ellipse cover,  #d61b15 19%,#db2727 40%,#d62424 53%,#d61d1d 95%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #d61b15 19%,#db2727 40%,#d62424 53%,#d61d1d 95%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #d61b15 19%,#db2727 40%,#d62424 53%,#d61d1d 95%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d61b15', endColorstr='#d61d1d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.splashBackgroundImg {
+    background-size: cover;
+}
+
+.largeText, .skinnyText {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 42px;
+    text-align: center;
+}
+
+.largeText {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+.surfaceText {
+    color: 'white';
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-weight: bold;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 14px;
+}

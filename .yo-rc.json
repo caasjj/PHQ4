@@ -1,0 +1,11 @@
+{
+  "generator-famous": {
+    "projectName": "PHQ4",
+    "projectDesc": "Demo fo capptivate.co's PHQ4 iOS UI in famo.us' Javascript framework",
+    "authorLogin": "caasjj",
+    "author": {
+      "name": "Walid Hosseini",
+      "email": "caasjj@gmail.com"
+    }
+  }
+}
